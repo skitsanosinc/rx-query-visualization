@@ -89,6 +89,14 @@ const page = () =>
 
 	return <div>
 		<h1>Query Visualisation Demo</h1>
+		<div className={'mb-xxl'}>
+			Sources are available on:<br/>
+			<a href={'https://github.com/skitsanosinc/rx-query-visualization'}
+			   target={'_blank'}>https://github.com/skitsanosinc/rx-query-visualization</a>
+		</div>
+
+		<Divider/>
+
 		<Card className={'mb-xxl'}>
 			<div className={'mb-xxl'}>
 				<div>

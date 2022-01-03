@@ -1,7 +1,7 @@
 import {Avatar, Card, Col, Divider, Input, Row} from 'antd';
 import {useState} from 'react';
 
-const rx = /(((?<logic>\w+)\s)?(?<key>\w+))(?<operation>[=~?])(?<value>"?[^\s]*"?)/gui;
+const rx = /(((?<logic>\w+)\s)?(?<key>\w+))(?<operation>[=~?><])(?<value>"?[^\s]*"?)/gui;
 
 const collectFilters = q => [...q.matchAll(rx)].map(el => el?.groups);
 

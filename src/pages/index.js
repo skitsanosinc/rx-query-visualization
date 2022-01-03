@@ -121,7 +121,7 @@ const page = () =>
 				   onChange={onChange}/>
 		</Card>
 
-		<Card>
+		<Card style={{padding: '1ch'}}>
 			<h2>Parsed Query Blocks</h2>
 			{query?.map((el, index) => <Card.Grid style={{width: '25%'}}
 												  key={index}>

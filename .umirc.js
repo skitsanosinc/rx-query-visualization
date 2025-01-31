@@ -1,8 +1,6 @@
 export default {
 	title: 'Query Visualisation Demo',
 
-	nodeModulesTransform: {type: 'none'},
-
 	metas: [
 		{
 			name: 'keywords',

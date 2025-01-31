@@ -1,7 +1,7 @@
 {
   "name": "rx-query-visualization",
   "description": "Parsing query string and visualizing it as blocks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": "git@github.com:skitsanosinc/rx-query-visualization.git",
   "author": "skitsanos <info@skitsanos.com>",
   "license": "MIT",
@@ -10,10 +10,18 @@
     "build": "umi build"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.0.0",
-    "antd": "^5.0.0",
-    "react": "^17.0.2",
+    "@ant-design/icons": "^5.6.0",
+    "antd": "^5.23.3",
+    "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "umi": "^4.0.0"
+    "umi": "^4.4.4"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
